@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Grunnleggende HTML5-Struktur -->
+  </head>
+<body>
+  <header>
+    <h1>Mitt nettsted</h1>
+    <nav>
+      <a href="#home">Hjem</a>
+      <a href="#about">Om oss</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <section>
+        <h2>Velkommen</h2>
+        <p>Dette er starten på siden min.</p>
+      </section>
+      <section>
+        <h2>Kontakt</h2>
+        <p>Her finner du kontaktinformasjon.</p>
+      </section>
+    </article>
+  </main>
+
+  <!-- Grunnleggende om HTML-skjemaer -->
+<form action="/send" method="post">
+  <label for="navn">Navn:</label>
+  <input id="navn" name="navn" type="text" placeholder="Skriv ditt navn" required>
+
+  <label for="email">E-post:</label>
+  <input id="email" name="email" type="email" placeholder="din@mail.com" required>
+
+  <label>Kjønn:</label>
+  <input type="radio" id="mann" name="kjonn" value="mann">
+  <label for="mann">Mann</label>
+
+  <input type="radio" id="kvinne" name="kjonn" value="kvinne">
+  <label for="kvinne">Kvinne</label>
+
+  <label for="meld">Melding:</label>
+  <textarea id="meld" name="melding" rows="4"></textarea>
+
+  <button type="submit">Send</button>
+</form>
+
+
+
+<!--TEMA: HTML-Lister -->
+
+<!-- Uordnet liste(Punkter)-->
+<ul>
+  <li>Vaske bilen</li>
+  <li>Hente hunden i barnehagen</li>
+  <li>Lage middag</li>
+</ul>
+
+<!-- Ordnet liste(Nummerert)-->
+<ol>
+  <li>Finn en stikkontakt</li>
+  <li>Sett i pluggen</li>
+  <li>Slå på fjernsynsapparatet</li>
+</ol>
+
+<!--Definisjonsliste (term og defininsjon)-->
+<dl>
+  <dt>HTML</dt>
+  <dd>Språket man lager nettsider med.</dd>
+  <dt>CSS</dt>
+  <dd>Brukes til å style nettsider.</dd>
+</dl>
+
+<!-- ENKEL TABELL
+ Hvordan fungerer det:
+ Den første raden inneholder <th> for kolonneoverskrifter.
+  De påfølgende radene har <td> med innhold.
+  Tabellen vises i et rutenett når du åpner nettsiden i en nettleser.
+
+
+    Lister og tabeller er enkle å lære og gri god struktur på nettsidene. Du kan også gjøre lister
+    og tabeller mer avanserte med CSS senere, men dette er det grunnleggende for hvordan man lager
+    de i HTML5 -->
+ <table>
+  <tr>
+    <th>Navn</th>
+    <th>Fagområde</th>
+    <th>Telefonnummer</th>
+  </tr>
+  <tr>
+    <td>Jens Jakobsen</td>
+    <td>Fysikk</td>
+    <td>91484</td>
+  </tr>
+  <tr>
+    <td>Kari Olsen</td>
+    <td>Informatikk</td>
+    <td>94815</td>
+  </tr>
+  <tr>
+    <td>Ingrid Hauge</td>
+    <td>Historie</td>
+    <td>98482</td>
+  </tr>
+</table>
+
+</body>
+</html>
